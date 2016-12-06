@@ -19,6 +19,7 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
     <TextView
+        android:id="@+id/trip_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Trip:"
@@ -26,12 +27,14 @@
         android:layout_marginRight="16dp"
         android:textAllCaps="true"/>
     <EditText
+        android:id="@+id/trip_edit_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Name"/>
 </LinearLayout>
 
     <TextView
+        android:id="@+id/rack_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rack"
@@ -51,12 +54,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
         <TextView
+            android:id="@+id/num_point3_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=".3 x"
             android:textSize="20sp"
             android:layout_marginRight="8dp" />
         <EditText
+            android:id="@+id/num_point3_edit_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
@@ -69,12 +74,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
         <TextView
+            android:id="@+id/num_point4_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=".4 x"
             android:textSize="20sp"
             android:layout_marginRight="8dp" />
         <EditText
+            android:id="@+id/num_point4_edit_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="16dp"
@@ -86,12 +93,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
         <TextView
+            android:id="@+id/num_point5_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text=".5 x"
             android:textSize="20sp"
             android:layout_marginRight="8dp"/>
         <EditText
+            android:id="@+id/num_point5_edit_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="#" />
@@ -102,12 +111,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/num_point75_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=".75 x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp"/>
             <EditText
+                android:id="@+id/num_point75_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="#" />
@@ -126,12 +137,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/num_1_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" 1 x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp" />
             <EditText
+                android:id="@+id/num_1_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
@@ -143,12 +156,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/num_2_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" 2 x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp" />
             <EditText
+                android:id="@+id/num_2_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
@@ -160,12 +175,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/num_3_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" 3 x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp"/>
             <EditText
+                android:id="@+id/num_3_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="#" />
@@ -176,12 +193,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/num_4_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" 4 x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp"/>
             <EditText
+                android:id="@+id/num_4_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:hint="#" />
@@ -195,17 +214,20 @@
         android:layout_marginBottom="16dp"
         android:orientation="horizontal">
             <TextView
+                android:id="@+id/num_5_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=" 5 x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp" />
             <EditText
+                android:id="@+id/num_5_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
                 android:hint="#" />
             <TextView
+                android:id="@+id/num_6_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6 x"
@@ -213,6 +235,7 @@
                 android:textSize="20sp"
                 android:layout_marginRight="8dp" />
             <EditText
+                android:id="@+id/num_6_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
@@ -228,12 +251,14 @@
             android:layout_marginBottom="16dp"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/quickdraw_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Quickdraws"
                 android:textSize="16sp"
                 android:layout_marginRight="8dp" />
             <EditText
+                android:id="@+id/quickdraw_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
@@ -249,12 +274,14 @@
                 android:layout_marginBottom="16dp"
                 android:orientation="horizontal">
                 <CheckBox
+                    android:id="@+id/stoppers_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
                     android:text="Stoppers"
                     android:textSize="16sp" />
                 <CheckBox
+                    android:id="@+id/Etriers_checkbox"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
@@ -275,16 +302,17 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/rope70m_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="70m x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp" />
             <EditText
+                android:id="@+id/rope70m_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
-
                 android:hint="#" />
         </LinearLayout>
         <LinearLayout
@@ -293,12 +321,14 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/rope60m_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="60m x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp" />
             <EditText
+                android:id="@+id/rope60m_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="16dp"
@@ -310,24 +340,29 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <TextView
+                android:id="@+id/rope50m_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="50m x"
                 android:textSize="20sp"
                 android:layout_marginRight="8dp"/>
             <EditText
+                android:id="@+id/rope50m_edit_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="#" />
+                android:layout_marginRight="16dp"
+                android:hint="#"/>
         </LinearLayout>
 
     </LinearLayout>
     <TextView
+        android:id="@+id/comments_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Comments"
         android:textSize="16sp"/>
     <EditText
+        android:id="@+id/comments_box"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="60dp"
@@ -337,11 +372,13 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/send_to_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Send To"
             android:layout_weight="1"/>
         <Button
+            android:id="@+id/make_note_button"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:text="Make Note"
