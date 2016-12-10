@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public String camMessage() {
+    private String camMessage() {
         getAmount();
         String partialRack = "";
         for (int i = 0; i < sizeEditTextValues.size(); i++) {
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
         return partialRack;
     }
 
-    public String quickdrawMessage() {
+    private String quickdrawMessage() {
         String partialRack = "";
         if (Integer.parseInt(editTextValues.get(1)) > 1) {
             partialRack += editTextValues.get(1) + " Quickdraws, ";
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         return partialRack;
     }
 
-    public String checkboxMessage() {
+    private String checkboxMessage() {
         String partialRack = "";
         if (hasStoppers) {
             partialRack += "Stoppers, ";
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         return partialRack;
     }
 
-    public String message() {
+    private String message() {
         String theRack = "We need " + camMessage() + quickdrawMessage() + checkboxMessage();
         return theRack;
     }
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
         sampleMessage.setText(message());
     }
 
-    public void getAmount () {
+    private void getAmount () {
         for(int i = 0; i < sizeEditTextValues.size(); i++){
             gearAmounts.add(Integer.parseInt(sizeEditTextValues.get(i)));
         }
